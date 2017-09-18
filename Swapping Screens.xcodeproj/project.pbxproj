@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA1CB9A1F706F8E008CDBB7 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1CB991F706F8E008CDBB7 /* PlaySongVC.swift */; };
 		3CB34A5D1F6C9ADA00A228AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34A5C1F6C9ADA00A228AC /* AppDelegate.swift */; };
-		3CB34A5F1F6C9ADA00A228AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34A5E1F6C9ADA00A228AC /* ViewController.swift */; };
+		3CB34A5F1F6C9ADA00A228AC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34A5E1F6C9ADA00A228AC /* LoginVC.swift */; };
 		3CB34A621F6C9ADA00A228AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34A601F6C9ADA00A228AC /* Main.storyboard */; };
 		3CB34A641F6C9ADA00A228AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34A631F6C9ADA00A228AC /* Assets.xcassets */; };
 		3CB34A671F6C9ADA00A228AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34A651F6C9ADA00A228AC /* LaunchScreen.storyboard */; };
+		3CB34A6F1F6C9CA400A228AC /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34A6E1F6C9CA400A228AC /* MusicListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CA1CB991F706F8E008CDBB7 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 		3CB34A591F6C9ADA00A228AC /* Swapping Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swapping Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB34A5C1F6C9ADA00A228AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CB34A5E1F6C9ADA00A228AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CB34A5E1F6C9ADA00A228AC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3CB34A611F6C9ADA00A228AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CB34A631F6C9ADA00A228AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB34A661F6C9ADA00A228AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB34A681F6C9ADA00A228AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB34A6E1F6C9CA400A228AC /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				3CB34A5C1F6C9ADA00A228AC /* AppDelegate.swift */,
-				3CB34A5E1F6C9ADA00A228AC /* ViewController.swift */,
+				3CB34A5E1F6C9ADA00A228AC /* LoginVC.swift */,
 				3CB34A601F6C9ADA00A228AC /* Main.storyboard */,
 				3CB34A631F6C9ADA00A228AC /* Assets.xcassets */,
 				3CB34A651F6C9ADA00A228AC /* LaunchScreen.storyboard */,
 				3CB34A681F6C9ADA00A228AC /* Info.plist */,
+				3CB34A6E1F6C9CA400A228AC /* MusicListVC.swift */,
+				3CA1CB991F706F8E008CDBB7 /* PlaySongVC.swift */,
 			);
 			path = "Swapping Screens";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB34A5F1F6C9ADA00A228AC /* ViewController.swift in Sources */,
+				3CB34A6F1F6C9CA400A228AC /* MusicListVC.swift in Sources */,
+				3CA1CB9A1F706F8E008CDBB7 /* PlaySongVC.swift in Sources */,
+				3CB34A5F1F6C9ADA00A228AC /* LoginVC.swift in Sources */,
 				3CB34A5D1F6C9ADA00A228AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				3CB34A6D1F6C9ADA00A228AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
